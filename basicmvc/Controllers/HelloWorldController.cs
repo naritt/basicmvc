@@ -23,7 +23,7 @@ namespace basicmvc.Controllers
             return "This is the Welcome action method...";
         }
 
-        // GET: /HelloWorld/Hello?name=xxx&numTimes=x
+        // GET: /HelloWorld/Hello?name=xxx numTimes=x
         public string Hello(string name, int numTimes = 1)
         {
             return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");

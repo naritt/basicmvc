@@ -11,11 +11,13 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Views\Vaccine\" />
+    <None Remove="Views\Image\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\TestView\" />
     <Folder Include="Views\TestModel\" />
     <Folder Include="Views\Vaccine\" />
+    <Folder Include="Views\Image\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />

@@ -1,12 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Welcome";
+    int numtimes = (int)ViewData["NumTimes"];
+    string message = (string)ViewData["Message"];
 }
 
 <h2>Welcome</h2>
 
 <ul>
-    @for (int i = 0; i < (int)ViewData["NumTimes"]; i++)
+    @for (int i = 0; i < numtimes; i++)
     {
-        <li>@ViewData["Message"]</li>
+        <li>@message</li>
     }
 </ul>

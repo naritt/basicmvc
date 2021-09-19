@@ -34,6 +34,16 @@ namespace basicmvc.Controllers
                 {
                     firstname = "Nisakarn",
                     lastname = "Thanasinpaisan"
+                },
+                new UserModel()
+                {
+                    firstname = "Nakkarin",
+                    lastname = "Trachuentong"
+                },
+                new UserModel()
+                {
+                    firstname = "Itsarate",
+                    lastname = "Trachuentong"
                 }
             };
 
